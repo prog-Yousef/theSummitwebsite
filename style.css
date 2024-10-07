@@ -1,0 +1,64 @@
+
+a {
+    color: #2176FF; 
+     text-decoration: underline; 
+    cursor: pointer;
+  }
+  
+  
+  a:hover{
+  background-color: aqua;
+  }
+  
+  .nav-link{
+    text-decoration: none;
+  }
+  
+  .nav-link:hover{
+     color: #5495ff
+  }
+  
+  
+  .btn{
+    background-color: #2176FF;
+    border-radius: 2px;
+    color: bisque;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+  cursor: pointer;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .btn:hover{
+  color: antiquewhite;
+  background-color: orange;
+  font-size: larger;
+    transition: color .1s ease-in, background-color .1s ease-in;
+  
+  }
+  
+  .btn:active{
+    font-size: 18px;
+  transition: font-size .1s ease-in-out;
+  }
+  
+  
+  .activity{
+    border: 2px solid #2176FF;
+    cursor: pointer;
+    text-decoration: none;
+  
+  }
+  .activity:hover {
+    background-color: #fff;
+    color: #5495ff;
+    transition: color .1s ease-in, background-color .1s ease-in;
+  }
+  
+  .activity:active {
+    font-size: 40px;
+    transition: font-size .1s;
+  }
